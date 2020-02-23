@@ -1,0 +1,78 @@
+#barreMenu {
+    position: fixed;
+    width: 0.3vw;
+    height: 100vw;
+    background-color: black;
+    margin-top: 0.0vh;
+    margin-left:3.6vw;
+    z-index: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2Fd;
+  }
+  
+  .rondMenu {
+    margin-top: 12vh;
+    position: fixed;
+  }
+  
+  .rondMenu2 {
+  
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: black;
+    transition: transform 0.5s, margin-bottom 0.5s ;
+    margin-top: 5.9vh;
+    margin-bottom: 0vh;
+    margin-left: 3vw;
+    transform: scale(1.5);
+    background-color: #3333CC;
+    margin-bottom: 8.9vh;
+  
+  }
+  .rondMenu1 {
+  
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: black;
+    transition: transform 0.5s, margin-bottom 0.5s ;
+    margin-top: 4.9vh;
+    margin-bottom: 0vh;
+    margin-left: 3vw;
+    transform-origin: center;
+  
+  }
+  
+  .rondMenu1:hover {
+  transform: scale(1.5);
+  background-color: #3333CC;
+  margin-bottom: 8.9vh;
+  }
+  
+  .textMenu {
+    position: fixed;
+  font-size: 0vw;
+  margin-left: 5.2vh;
+  width: 50vw;
+  }
+  
+  .textMenu1 {
+    position: fixed;
+  font-size: 1vw;
+  margin-left: 5.2vh;
+  width: 50vw;
+  }
+
+
+  
+
+  

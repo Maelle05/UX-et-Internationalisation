@@ -1,0 +1,112 @@
+.contenu_intro{
+  padding-top: 15%;
+  padding-bottom: 20%;
+  padding-left: 10%;
+  padding-right: 7%;
+}
+#bienvenue_prenom {
+  font-size: 1.5vw;
+}
+
+#prenom {
+  width: 40vw;
+  margin-left:31vw;
+}
+
+#ux {
+  display: none;
+  font-size: 1.5vw;
+}
+
+#presentation {
+  display: none;
+  font-size: 1.5vw;
+  height: 9vw;
+  width: 25vw;
+  margin-left: 29vw;
+  background-color: #AAB9ED;
+  margin-top: -7vw;
+    border-radius: 5%;
+}
+
+#uxOui {
+  display: none;
+  font-size: 1.5vw;
+  height: 6.2vw;
+  width: 25vw;
+  margin-left: 29vw;
+  background-color: #AAB9ED;
+  margin-top: -7vw;
+    border-radius: 5%;
+}
+
+#uxNon {
+  display: none;
+  font-size: 1.5vw;
+  height: 10vw;
+  width: 40vw;
+  margin-left: 22vw;
+  background-color: #AAB9ED;
+  margin-top: -7vw;
+    border-radius: 5%;
+}
+
+.Choix1 {
+
+  margin-top: 3vw;
+  margin-left: 0vw;
+}
+
+.Choix2 {
+margin-left: 7vw;
+}
+
+#finChoix {
+    display: none;
+margin-left: 37vw;
+
+}
+
+#interOui {
+  display: none;
+  font-size: 1.5vw;
+  height: 9vw;
+  width: 25vw;
+  margin-left: 29vw;
+  background-color: #AAB9ED;
+  margin-top: -7vw;
+    border-radius: 5%;
+}
+
+#interNon {
+  display: none;
+  font-size: 1.5vw;
+  height: 11vw;
+  width: 40vw;
+  margin-left: 21.5vw;
+  background-color: #AAB9ED;
+  margin-top: -7vw;
+    border-radius: 5%;
+}
+
+.Entrer {
+  margin-left: 5vw;
+}
+
+
+#finChoix2 {
+  display: none;
+  margin-left: 35vw;
+}
+
+
+#internationalisation {
+  display: none;
+  font-size: 1.5vw;
+  height: 4.5vw;
+  width: 25vw;
+  margin-left: 29vw;
+  background-color: #AAB9ED;
+  margin-top: -7vw;
+    border-radius: 5%;
+}

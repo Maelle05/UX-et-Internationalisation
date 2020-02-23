@@ -1,0 +1,161 @@
+.couleurs{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    text-align: center;
+}
+.couleur{
+    padding-left: 2%;
+}
+.carre_blanc {
+    height: 7em;
+    width: 7em;
+    background-color: white;
+    opacity: 99%;
+    border: 2px solid black;
+    text-align: center;
+}
+#blanc_text {
+    position: absolute;
+    background-color: blanchedalmond;
+    opacity: 0%;
+    border-radius: 7%;
+    text-align:center;
+}
+.carre_violet {
+    height: 7em;
+    width: 7em;
+    background-color:violet;
+    opacity: 99%;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#violet_text {
+    position: absolute;
+    background-color: violet;
+    opacity: 0%;
+    border-radius: 7%;
+    text-align:center;
+}
+.carre_orange {
+    height: 7em;
+    width: 7em;
+    background-color: orange ;
+    opacity: 99%;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#orange_text {
+    position: absolute;
+    background-color: coral;
+    opacity: 0%;
+    border-radius: 7%;
+    text-align:center;
+}
+.carre_jaune {
+    height: 7em;
+    width: 7em;
+    background-color: yellow ;
+    opacity: 99%;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#jaune_text {
+    position: absolute;
+    background-color: yellow;
+    opacity: 99%;
+    border-radius: 7%;
+    text-align:center;
+}
+.carre_rouge {
+    height: 7em;
+    width: 7em;
+    background-color: tomato ;
+    opacity: 99%;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#rouge_text {
+    position: absolute;
+    background-color: tomato;
+    opacity: 0%;
+    border-radius: 7%;
+    text-align:center;
+}
+.carre_bleu {
+    height: 7em;
+    width: 7em;
+    background-color:cyan;
+    opacity: 99%;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#bleu_text {
+    position: absolute;
+    background-color: cyan;
+    opacity: 0%;
+    border-radius: 7%;
+    text-align:center;
+}
+.carre_vert {
+    height: 7em;
+    width: 7em;
+    background-color: greenyellow;
+    opacity: 99%;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#vert_text {
+    position: absolute;
+    background-color: greenyellow;
+    opacity: 0%;
+    border-radius: 7%;
+    text-align:center;
+}
+.carre_noir {
+    height: 7em;
+    width: 7em;
+    background-color: black;
+    opacity: 99%;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+
+}
+#noir_text {
+    position: absolute;
+    background-color:gainsboro;
+    opacity: 0%;
+    border-radius: 7%;
+    text-align:center;
+}
+.perso{
+    width: 20%;
+}
+.text_couleur{
+    text-align: center; margin:10%; margin-right:0%; display: box; font-size:1vw;
+}
+.text_g_couleur{
+    text-align: center; margin-right:40%; display: box;
+}
+
+.bulle3 {
+  margin-left: 20vw;
+}
+
+#p1-1 {
+  margin-left: 22vw;
+  width: 40vw;
+}
+
+#p1 {
+  margin-left: 22vw;
+  width: 40vw;
+}

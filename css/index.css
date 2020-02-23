@@ -1,0 +1,255 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  overflow-x: hidden;
+}
+.head_barre{
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  background-color:white;
+  z-index: 30;
+  display: flex;
+  border-bottom:3px solid black;
+
+}
+.head_barre .a{
+  padding-right: 7%;
+}
+.bienvenue_prenom{
+margin: 0;
+padding: 0;
+}
+h1{
+  margin: 0;
+  padding-top: 11%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 500%;
+  text-align: center;
+}
+h2{
+  padding-top: 10% ;
+  padding-bottom: 3%;
+  font-size: xx-large;
+}
+#perso_b{
+  width: 10%;
+}
+.contenu{
+  margin-left: 15%;
+
+}
+button {
+  display: inline-block;
+  padding: 0.3vw 2.7vw;
+  font-size: 1.5vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3333cc;
+  border: none;
+  border-radius: 1vw;
+  margin-top: 1vw;
+}
+
+button:active {
+  background-color: #3333CD;
+  box-shadow: 0.9vw gray;
+  transform: translateY(0.2vw);
+}
+
+input {
+    display: inline-block;
+    padding: 0.3vw 0.5vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: white;
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    color:black;
+  }
+
+
+input:active {
+      transform: translateY(0.2vw);
+  }
+
+  .submit {
+  background-color: #AAB9ED;
+  border: none;
+  }
+
+  .answer {
+    margin-bottom: 2vw;
+    margin-top: -0.3vw;
+  }
+
+
+  hr {
+    border: 0.1vw solid black;
+  }
+
+  a {
+    text-decoration: none;
+    font-style: italic;
+  }
+  .Paul1{
+    width:10%; float:left; margin-left:6%; margin-top:3%;
+  }
+  .intro{
+    text-align: center
+  }
+  .hib1{
+    width: 40%; margin-left: 0%;
+  }
+  .hib2{
+    width: 40%; margin-left: 6%
+  }
+  .bulle{
+    width: 40% ;  margin-top: 1vh;
+  font-size: 1vw;
+  background-color: #AAB9ED;
+    border-radius: 5%;
+    text-align:center;
+  }
+  .bulle2{
+    margin-left: 6%;
+    width: 40% ;  margin-top: 1vh;
+  font-size: 1vw;
+  background-color: #AAB9ED;
+    border-radius: 5%;
+    text-align:center;
+  }
+  .cont_symb{
+    display: flex; flex-direction: row;
+  }
+  .bulle3{
+    margin-top: 5vh;
+  font-size: 1.5vw;
+  width: 50vw;
+  margin-left: 10vw;
+  background-color: #AAB9ED;
+    border-radius: 5%;
+    text-align:center
+  }
+  .Paul{
+    width:6%; float:right; margin-right:13vw; margin-top:0vh;
+  }
+  .ligne_devise{
+    display: flex; flex-direction: row; padding-left:10%
+  }
+  .bulle4{
+    width: 20% ;
+    height: 35vh;
+  font-size: 1vw;
+  background-color: #AAB9ED;
+    border-radius: 5%;
+    text-align:center;
+  }
+  .bulle5{
+    margin-top: 3vh;
+  font-size: 1vw;
+  width: 50vw;
+  margin-left: 13vw;
+  background-color: #AAB9ED;
+    border-radius: 5%;
+    text-align:center
+  }
+  .img_stat{
+    padding:10%; padding-top:0%; height:200%
+  }
+
+
+
+  @media screen and (max-width: 800px){
+    .menu{
+        display: none;
+    }
+    .head_barre{
+        display: none;
+    }
+    h1{
+      font-size: 7vw;
+      padding-top: 10vw;
+      padding-bottom: 10vw;
+    }
+    .Paul{
+      width: 20%;
+    }
+    #bienvenue_prenom{
+      font-size: 5vw;
+      width: 100%;
+    }
+    #langueIntro{
+      margin-top: 0vw;
+    }
+    #siToi{
+      margin-top: 0vw;
+    }
+    #choixReponse1{
+      margin-top: 0vw;
+    }
+    #Reponse1{
+      margin-top: 0vw;
+    }
+    #choixReponse2{
+      margin-top: 0vw;
+    }
+    #choixReponse3{
+      margin-top: 0vw;
+    }
+    .forml{
+      display: none;
+    }
+    .forml2{
+      display: none;
+    }
+
+    .couleur_part{
+      display: none;
+    }
+    .ligne_devise{
+      flex-direction: column;
+      align-content: center;
+      width: 100%;
+    }
+ }
+
+ .unSymbole {
+   margin-left: -15vw;
+ }
+
+ .ilEst {
+   margin-left: -15vw;
+ }
+
+ .cestDailleurs {
+   margin-left: -5vw;
+ }
+
+ .ainsiSur {
+   margin-left: -15vw;
+ }
+.ahNous {
+     margin-left: -5vw;
+}
+
+.conclu {
+width: 50vw;
+margin-left: 10vw;
+background-color: #AAB9ED;
+border-radius: 5%;
+}
+
+.stat {
+  background-color: #AAB9ED;
+  border-radius: 5%;
+} 
